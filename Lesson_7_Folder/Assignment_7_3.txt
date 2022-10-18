@@ -1,0 +1,17 @@
+In a ice cream buisness. A event scheduler that automatically counts the total amount of sales of each flavor of icecream. This information will be crucial in determining which flavor
+ inventory should be bought more, so the shopowner can optimize his purchases and profits.
+
+A outline of the event scheduler
+
+Create Event count_sales 
+On schedule , Interval 1 month
+Do Begin
+Count(total_sales) from Vanilla
+End
+
+Create Event count_sales 
+On schedule , Interval 1 month
+Do Begin
+Count(total_sales) from All_other_flavors.
+End
+
